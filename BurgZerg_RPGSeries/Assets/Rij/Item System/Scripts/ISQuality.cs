@@ -11,7 +11,7 @@ namespace Rij.ItemSystem
         [SerializeField]
         Sprite _icon;
 
-        ISQuality()
+        public ISQuality()
         {
             _name = "Common";
             _icon = new Sprite();

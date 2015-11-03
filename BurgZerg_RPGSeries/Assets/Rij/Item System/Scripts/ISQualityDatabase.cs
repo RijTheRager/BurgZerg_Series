@@ -6,6 +6,6 @@ namespace Rij.ItemSystem
 {
     public class ISQualityDatabase : ScriptableObject
     {
-        List<ISQuality> db = new List<ISQuality>();
+        public List<ISQuality> database = new List<ISQuality>();
     }
 }
